@@ -275,8 +275,8 @@ class MainHandDetector:
                           cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
             
             # Instructions
-            cv2.putText(frame, "Point up & rotate | Move up/down | Open/close fist", 
-                       (10, frame.shape[0] - 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
+            # cv2.putText(frame, "Point up & rotate | Move up/down | Open/close fist", 
+            #            (10, frame.shape[0] - 40), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
             cv2.putText(frame, "Press 'q' to quit", 
                        (10, frame.shape[0] - 15), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
             
